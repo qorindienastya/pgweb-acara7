@@ -12,6 +12,11 @@ echo "<br>";
         echo $b."<br>";
 }
  
+echo "<br>";
+// inisialisasi, kondisi, decrement
+    for ($b = 1; $b >= -5; $b--) {
+        echo $b."<br>";
+}
 
 $colors = array("red", "green", "blue", "yellow");
 // foreach menguraikan data
@@ -21,6 +26,8 @@ foreach ($colors as $value) {
 
 // mengguraikan data array menggunakan index
 for ($i=0; $i<=3; $i++){
-    echo $colors[$i]."<br";
+    echo $colors[$i]."<br>";
 }
 ?>
+
+
